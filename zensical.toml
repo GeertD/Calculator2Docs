@@ -11,8 +11,12 @@ site_name = "Documentation"
 # edit_uri = "edit/main/docs/"
 
 nav = [
-  { "Get started" = "index.md" },
-  { "Markdown in 5min" = "markdown.md" },
+  { "Calculator" = "index.md" },
+  { "Tutorials" = "tutorials.md" },
+  { "How-To Guides" = "how-to-guides.md" },
+  { "Reference" = "reference.md" },
+  { "The Beast" = "beast.md" },
+  { "Explanation" = "explanation.md" },
 ]
 
 # extra_css = ["stylesheets/extra.css"]
@@ -116,3 +120,19 @@ pymdownx.tabbed.alternate_style = true
 pymdownx.tabbed.combine_header_slug = true
 pymdownx.tasklist.custom_checkbox = true
 pymdownx.tilde = {}
+
+[project.plugins.mkdocstrings.handlers.python]
+# inventories = ["https://docs.python.org/3/objects.inv"]
+paths = ["src"]
+# options.inherited_members = true
+options.docstring_style = "google"
+options.show_source = false
+options.docstring_section_style = "list"
+options.show_docstring_functions = true     # show methods of classes
+options.members_order = "alphabetical"
+options.filters = "public"      # only public members
+options.summary = true          # summary of module, class, ...
+options.show_root_heading = true
+options.show_category_heading = true
+options.heading_level = 1     # start level for headings <h1>
+options.show_symbol_type_heading = true

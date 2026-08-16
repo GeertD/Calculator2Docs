@@ -4,6 +4,18 @@
         <loc>https://www.example.com/</loc>
       </url>
       <url>
-        <loc>https://www.example.com/markdown/</loc>
+        <loc>https://www.example.com/tutorials/</loc>
+      </url>
+      <url>
+        <loc>https://www.example.com/how-to-guides/</loc>
+      </url>
+      <url>
+        <loc>https://www.example.com/reference/</loc>
+      </url>
+      <url>
+        <loc>https://www.example.com/beast/</loc>
+      </url>
+      <url>
+        <loc>https://www.example.com/explanation/</loc>
       </url>
 </urlset>

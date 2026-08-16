@@ -8,6 +8,7 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "mkdocstrings-python>=2.0.6",
     "zensical>=0.0.55",
 ]
 
