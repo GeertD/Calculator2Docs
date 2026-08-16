@@ -6,6 +6,12 @@ icon: lucide/rocket
 
 For full documentation visit [zensical.org](https://zensical.org/docs/).
 
+## Get really started
+!!! note
+
+    This generates a note, cool no?
+    One needs to indent double.
+
 ## Commands
 
 * [`zensical new`][new] - Create a new project
